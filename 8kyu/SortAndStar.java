@@ -12,6 +12,18 @@ You should not remove or add elements from/to the array.
 public class SortAndStar {
 
 	public static String twoSort(String s) {
-		return null;
+	
+	StringBuilder str = new StringBuilder();
+
+	for (int i = 0; i < s.length(); i++) {
+
+		char c = s.charAt(i);
+
+		if (c != '*') {
+			str.append(c);
+		}
+	}
+		
+		return s;
 	}
 }
